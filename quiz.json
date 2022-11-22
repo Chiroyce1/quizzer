@@ -1,0 +1,65 @@
+[
+    {
+        "question": "What is the full form of JIT?",
+        "answer": "just in time",
+        "options": [
+            "jingle in there",
+            "journe interior timing",
+            "jet irrigation training"
+        ]
+    },
+    {
+        "question": "Python is ___",
+        "answer": "interpreted",
+        "options": [
+            "compiled",
+            "just in time compiled (JIT)",
+            "virtualized in a VM."
+        ]
+    },
+    {
+        "question": "Linux is based on ___",
+        "answer": "Unix",
+        "options": [
+            "Windows",
+            "DarwinNT",
+            "Ubuntu"
+        ]
+    },
+    {
+        "question": "Which of the following is the command used to view all files in a directory?",
+        "answer": "ls",
+        "options": [
+            "listall",
+            "showfiles",
+            "cd"
+        ]
+    },
+    {
+        "question": "Which of the following is not a shell language?",
+        "answer": "lsh",
+        "options": [
+            "ksh",
+            "sh",
+            "bash"
+        ]
+    },
+    {
+        "question": "Which of the following is not a distribution of Linux?",
+        "answer": "LockOS",
+        "options": [
+            "Pop_OS!",
+            "Fedora",
+            "RedHat"
+        ]
+    },
+    {
+        "question": "Which of the following is is the first ever microprocessor to use the x86 instruction set?",
+        "answer": "Intel 8086",
+        "options": [
+            "Intel Core i3 1st gen",
+            "AMD Ryzen 1",
+            "Intel Xeon 86"
+        ]
+    }
+]
