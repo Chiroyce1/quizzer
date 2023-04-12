@@ -16,9 +16,9 @@ def ask_question(question):
     clear()
 
     # Generate options (a, b, c..)
-    CHOICES = []
+    choices = []
     for i in range(len(question['options']) + 1):
-        CHOICES.append(ascii_lowercase[i])
+        choices.append(ascii_lowercase[i])
 
     # Make a shuffled array of options mixed with answer
     options = question["options"]
@@ -27,12 +27,12 @@ def ask_question(question):
 
     console.print(f"[white]{question['question']}")
     for option in options:
-        console.print(f"[white]{CHOICES[options.index(option)]}:[/white] [cyan]{option}")
+        console.print(f"[white]{choices[options.index(option)]}:[/white] [cyan]{option}")
     
     answer = input(f"{CYAN}> {GREEN}")
 
-    correct_option = CHOICES[options.index(question['answer'])]
-    if answer in CHOICES:
+    correct_option = choices[options.index(question['answer'])]
+    if answer in choices:
         # if their answer is in the choices list
         return (True, correct_option == answer, correct_option)
     else:
